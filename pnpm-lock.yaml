@@ -15,8 +15,8 @@ importers:
         specifier: ^0.5.10
         version: 0.5.10(tailwindcss@3.4.17)
       '@types/bcryptjs':
-        specifier: ^3.0.0
-        version: 3.0.0
+        specifier: ^3.0.2
+        version: 3.0.2
       autoprefixer:
         specifier: 10.4.20
         version: 10.4.20(postcss@8.5.1)
@@ -24,8 +24,8 @@ importers:
         specifier: ^6.0.0
         version: 6.0.0
       bcryptjs:
-        specifier: ^3.0.0
-        version: 3.0.0
+        specifier: ^3.0.2
+        version: 3.0.2
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -1090,9 +1090,9 @@ snapshots:
       mini-svg-data-uri: 1.4.4
       tailwindcss: 3.4.17
 
-  '@types/bcryptjs@3.0.0':
+  '@types/bcryptjs@3.0.2':
     dependencies:
-      bcryptjs: 3.0.0
+      bcryptjs: 3.0.2
 
   '@types/cookie@0.6.0': {}
 
@@ -1144,7 +1144,7 @@ snapshots:
       node-addon-api: 8.3.1
       node-gyp-build: 4.8.4
 
-  bcryptjs@3.0.0: {}
+  bcryptjs@3.0.2: {}
 
   binary-extensions@2.3.0: {}
 
