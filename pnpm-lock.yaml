@@ -15,8 +15,8 @@ importers:
         specifier: ^0.5.10
         version: 0.5.10(tailwindcss@3.4.17)
       '@types/bcryptjs':
-        specifier: ^3.0.2
-        version: 3.0.2
+        specifier: ^3.0.0
+        version: 3.0.0
       autoprefixer:
         specifier: 10.4.20
         version: 10.4.20(postcss@8.5.1)
@@ -24,8 +24,8 @@ importers:
         specifier: ^6.0.0
         version: 6.0.0
       bcryptjs:
-        specifier: ^3.0.2
-        version: 3.0.2
+        specifier: ^3.0.0
+        version: 3.0.0
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -306,7 +306,7 @@ packages:
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1 || >= 4.0.0-alpha.20 || >= 4.0.0-beta.1'
 
-  '@types/bcryptjs@3.0.2':
+  '@types/bcryptjs@3.0.0':
     resolution: {integrity: sha512-WRZOuCuaz8UcZZE4R5HXTco2goQSI2XxjGY3hbM/xDvwmqFWd4ivooImsMx65OKM6CtNKbnZ5YL+YwAwK7c1dg==}
     deprecated: This is a stub types definition. bcryptjs provides its own type definitions, so you do not need this installed.
 
@@ -364,7 +364,7 @@ packages:
     resolution: {integrity: sha512-cU8v/EGSrnH+HnxV2z0J7/blxH8gq7Xh2JFT6Aroax7UohdmiJJlxApMxtKfuI7z68NvvVcmR78k2LbT6efhRg==}
     engines: {node: '>= 18'}
 
-  bcryptjs@3.0.2:
+  bcryptjs@3.0.0:
     resolution: {integrity: sha512-k38b3XOZKv60C4E2hVsXTolJWfkGRMbILBIe2IBITXciy5bOsTKot5kDrf3ZfufQtQOUN5mXceUEpU1rTl9Uog==}
     hasBin: true
 
@@ -1090,9 +1090,9 @@ snapshots:
       mini-svg-data-uri: 1.4.4
       tailwindcss: 3.4.17
 
-  '@types/bcryptjs@3.0.2':
+  '@types/bcryptjs@3.0.0':
     dependencies:
-      bcryptjs: 3.0.2
+      bcryptjs: 3.0.0
 
   '@types/cookie@0.6.0': {}
 
@@ -1144,7 +1144,7 @@ snapshots:
       node-addon-api: 8.3.1
       node-gyp-build: 4.8.4
 
-  bcryptjs@3.0.2: {}
+  bcryptjs@3.0.0: {}
 
   binary-extensions@2.3.0: {}
 
