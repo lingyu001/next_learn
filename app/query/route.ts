@@ -7,7 +7,8 @@ async function listInvoices() {
     SELECT invoices.amount as amount, customers.name as name
     FROM invoices
     JOIN customers ON invoices.customer_id = customers.id
-    WHERE invoices.amount = 666;
+    WHERE invoices.amount = 500
+    ;
   `;
 
 	return data;
